@@ -1,8 +1,12 @@
 package com.example.advanceacademy.entity;
 
+import lombok.Builder;
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.List;
-
+@Data
+@Builder
 @Entity
 public class User {
     @Id
